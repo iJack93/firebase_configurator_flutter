@@ -87,7 +87,7 @@ You can also run the script directly from the GitHub repository using curl or wg
 ## Using curl:
 
 ```shell
-curl -s https://raw.githubusercontent.com/<username>/<repository>/main/firebase_configurator_flutter.sh | bash -s -- \
+curl -s https://raw.githubusercontent.com/iJack93/firebase_configurator_flutter/main/firebase_configurator_flutter.sh | bash -s -- \
 --user-email="your-email@example.com" \
 --firebase-project-dev="firebase-project-id-dev" \
 --firebase-project-stg="firebase-project-id-stg" \
@@ -98,7 +98,7 @@ curl -s https://raw.githubusercontent.com/<username>/<repository>/main/firebase_
 ## Using wget:
 
 ```shell
-wget -qO- https://raw.githubusercontent.com/<username>/<repository>/main/firebase_configurator_flutter.sh | bash -s -- \
+wget -qO- https://raw.githubusercontent.com/iJack93/firebase_configurator_flutter/main/firebase_configurator_flutter.sh | bash -s -- \
 --user-email="your-email@example.com" \
 --firebase-project-dev="firebase-project-id-dev" \
 --firebase-project-stg="firebase-project-id-stg" \
